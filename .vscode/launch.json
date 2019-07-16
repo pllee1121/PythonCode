@@ -4,12 +4,13 @@
     // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
     "configurations": [
+        
         {
-            "name": "Python: Current File (Integrated Terminal)",
+            "name": "Python",
             "type": "python",
             "request": "launch",
             "program": "${file}",
-            "console": "integratedTerminal"
+            "console": "internalConsole"
         },
         {
             "name": "Python: Remote Attach",
@@ -29,7 +30,7 @@
             "type": "python",
             "request": "launch",
             "module": "enter-your-module-name-here",
-            "console": "integratedTerminal"
+            "console": "internalConsole"
         },
         {
             "name": "Python: Django",
@@ -60,7 +61,7 @@
             "jinja": true
         },
         {
-            "name": "Python: Current File (External Terminal)",
+            "name": "Python: Current File",
             "type": "python",
             "request": "launch",
             "program": "${file}",
