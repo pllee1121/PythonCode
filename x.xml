@@ -1,0 +1,14 @@
+<data>
+    <country name='China'>
+        <year>2019</year>
+        <gdp>40万亿</gdp>
+    </country>
+    <country name="India">
+        <year>2018</year>
+        <gdp>10万亿</gdp>
+</country>
+    <country name="Japan">
+        <year>2017</year>
+        <gdp>30万亿</gdp>
+</country>
+</data>
