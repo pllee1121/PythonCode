@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>伪类的使用</title>
+    <style>
+        a:link {
+            color: purple;
+            font-size: 40px;
+        }
+
+        a:visited {
+            color: red;
+            font-size: 40px;
+        }
+
+        a:hover {
+            color: green;
+            font-size: 40px;
+        }
+
+        a:active {
+            color: blue;
+            font-size: 40px;
+        }
+        
+        .box{
+            width: 150px;
+            height: 300px;
+        }
+        .top,
+        .bottom {
+            width: 150px;
+            height: 150px;
+            background-color: red;
+        }
+        .top:hover{
+            background-color: green;
+        }
+
+        .box:hover .bottom{
+            background-color: blue;
+        }
+        .div1:after{
+            font-size: 40px;
+            content: "嘿嘿嘿";
+        }
+    </style>
+</head>
+
+<body>
+    <a href="https://www.google.com">谷歌搜索</a>
+    <div class="box">
+        <div class="top"></div>
+        <div class="bottom"></div>
+    </div>
+    <div class="div1">伪类伪类</div>
+</body>
+
+</html>

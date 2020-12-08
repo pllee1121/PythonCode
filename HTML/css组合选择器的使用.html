@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>css组合选择器的使用</title>
+    <style>
+
+        /* 通过 标签+标签查找 */
+        div,
+        p {
+            color: red;
+            font-size: 30px;
+        }
+
+        .div1 .div2 {
+            color: green;
+        }
+
+        /* 通过类名+类名查找标签 */
+        .div .P {
+            color: blueviolet;
+            font-size: 40px;
+        }
+
+        /* 毗邻选择器 */
+        .div+div {
+            background-color: coral;
+            font-size: 30px;
+        }
+
+        /* 类名+id */
+        .div2 #P {
+            color: darkgreen;
+            font-size: 60px;
+        }
+
+        /* 只查找子类标签 */
+        .div>a{
+            color: hotpink;
+            font-size: 70px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="div">
+        <div>From div tag</div>
+        <p class="P">From p tag</p>
+        <a href="">From a tag</a>
+    </div>
+
+    <div>
+        after div1
+    </div>
+
+
+    <div class="div1">
+        <div class="div2">
+            from div2
+        </div>
+    </div>
+
+    <div class="div2">
+        <p id="P">hello p</p>
+        <a href="">Hi a</a>
+    </div>
+
+</body>
+
+</html>

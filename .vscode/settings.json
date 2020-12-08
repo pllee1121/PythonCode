@@ -1,5 +1,5 @@
 {
-    "python.pythonPath": "/usr/local/bin/python",
     "code-runner.clearPreviousOutput": true,
     "code-runner.runInTerminal": true,
+    "python.pythonPath": "/usr/local/bin/python3",
 }

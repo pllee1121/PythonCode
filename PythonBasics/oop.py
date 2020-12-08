@@ -256,6 +256,7 @@ s1 = School('宿州学院', '皖宿州市埇桥区', '大学')
 s1.print_info()
 
 t1 = Teacher('张光辉', '30', '高等数学', s1)
+print(t1.school)
 t1.teacher_info()
 
 c1 = Course(t1.teacher_course, '500', '001', t1.teacher_name)

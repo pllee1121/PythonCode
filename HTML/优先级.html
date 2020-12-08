@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>优先级</title>
+    <style>
+        .div1 .div2 .div3{
+            color: blue;
+            font-size: 60px;
+        }
+        .div1 .div3{
+            color: green;
+            font-size: 50px;
+        }
+        .div2 .div3{
+            color: brown;
+            font-size: 40px;
+        }
+        .div3{
+            color: pink;
+            font-size: 30px
+        }
+        div{
+            color: red;
+            font-size: 20px;
+        }
+        .div1{
+            color: yellow;
+            font-size: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="div1">
+        <div class="div2">
+            <div class="div3" id="d" style="font-size: 40px; color:darkorange;">
+                最终形态
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

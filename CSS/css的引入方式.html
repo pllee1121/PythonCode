@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CSS的引入方式</title>
+
+    <!-- 第二种引入方式 -->
+    <style>
+        div{
+            color: coral;
+            background-color:aqua;
+            background: 50px;
+            font-size: 30px ;
+        }
+    </style>
+
+    <!-- 链接式式引入方式 -->
+    <!-- 引入个数无限制 -->
+    <link rel="stylesheet" href="cs.css">
+
+
+    <!-- 第三种导入式引入方式 -->
+    <style>
+        /* 引入个数有限制 */
+        @import "cs.css";
+    </style>
+    
+</head>
+<body>
+    <h1>第一种引入方式</h1>
+    <p style="color: brown; background-color:burlywood ;font-size: 30px;">hello CSS</div>
+
+    <h1>第二种引入方式</h1>
+    <div>hello CSS</div>
+
+    <h1>第三种引入方式 链接式</h1>
+    <a href="https://www.baidu.com" target="blank">百度</a>
+
+    <h1>第四种引入方式</h1>
+    <h2>导入式标签测试</h2>
+</body>
+</html>

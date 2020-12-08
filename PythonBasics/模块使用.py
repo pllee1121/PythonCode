@@ -279,16 +279,16 @@
 #     print(pic_text)
 
 
-'''
-    shelve模块
-'''
+# '''
+#     shelve模块
+# '''
 
-import shelve
+# import shelve
 
-f = shelve.open(r'shelve_test')
+# f = shelve.open(r'shelve_test')
 
-# f['stu1'] = {'name':'pllee','age':22}
-# f['stu2'] = {'name':'lipengliang','age':20}
-# f.close() 
+# # f['stu1'] = {'name':'pllee','age':22}
+# # f['stu2'] = {'name':'lipengliang','age':20}
+# # f.close() 
 
-print(f.get('stu2')['age'])
+# print(f.get('stu2')['age'])

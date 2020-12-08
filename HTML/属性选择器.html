@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>属性选择器的使用</title>
+
+    <style>
+        [eng] {
+            font-size: 30px;
+            color: red;
+        }
+
+        [aname] {
+            font-size: 25px;
+            color: purple;
+        }
+
+        /* 含有多个属性值其中一个是pl */
+        div[pllee~="pl"] {
+            color: darkorange;
+        }
+
+        div[pllee="lipengliang"] {
+            color: blue;
+        }
+
+        /* 以g开头的属性值 */
+        [alex^=g]{
+            color: aqua;
+            font-size: 33px;
+        }
+
+
+    </style>
+</head>
+
+<body>
+    <h1>属性选择器</h1>
+    <div>
+        <p eng="ptay">from p</p>
+        <a href="" aname="atag">from a</a>
+        <a href="" aname="atag">from a1</a>
+        <div pllee="lipengliang pl">from div lipengliang pl</div>
+        <div pllee="lipengliang">from div1 lipengliang</div>
+        <p alex="ggbbcc">p 标签</p>
+    </div>
+</body>
+
+</html>

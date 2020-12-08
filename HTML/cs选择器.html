@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>css选择器之四种基本选择器的使用</title>
+
+    <style>
+        /* 通用选择器 */
+        * {
+            color: red;
+            font-size: 30px;
+        }
+
+        */
+
+        /* 标签选择器 */
+        div {
+            font-size: 40px;
+            color: green;
+        }
+
+        p {
+            font-size: 30px;
+            color: blue;
+        }
+
+        a {
+            font-size: 50px;
+            color: red;
+        }
+
+        /* 类选择器对应使用 . 来选择 对于类选择器来说可以重名*/
+        .divpart {
+            font-size: 60px;
+            color: red;
+        }
+
+        .lowp {
+            font-size: 50px;
+            color: black;
+        }
+
+        /* 使用id的在选择时需要用 # 来选择 对于id选择器来说不能够重名*/
+        #lowp {
+
+            font-size: 40px;
+            color: green;
+        }
+    </style>
+
+</head>
+
+<body>
+    <h1>四种选择器的使用</h1>
+    <div class="divpart">djsalsadf</div>
+    <p id="lowp">aldsj</p>
+    <p class="lowp">你好小pp</p>
+    <a href="">ldsjafdj</a>
+</body>
+
+</html>
